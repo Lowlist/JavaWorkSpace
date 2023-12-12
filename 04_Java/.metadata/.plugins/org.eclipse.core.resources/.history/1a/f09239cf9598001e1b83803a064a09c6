@@ -1,0 +1,12 @@
+package Rpc;
+
+public class RpcOne {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		String cmd = sc.next();
+		int r = (int)(Math.random() * 6 + 1);
+	}
+	
+}

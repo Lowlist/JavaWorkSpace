@@ -1,0 +1,9 @@
+package Rpc;
+
+public class main {
+	public static void main(String[] args) {
+		RpsOne r = new RpsOne();
+		r.run();
+	}
+	
+}
