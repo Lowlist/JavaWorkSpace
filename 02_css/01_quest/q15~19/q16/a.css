@@ -1,0 +1,64 @@
+#box{
+    display: flex;
+    background-color: aqua;
+    flex-direction: row;
+    
+    /* x축 = 디폴트 */
+
+    /* flex-direction: column; */
+    /* 주석 flex (문제16): y축 지정 */
+    
+    /* y축 */
+    
+    /* 주석 flex: 부모 영역에 x축 y축 배치 */
+
+    justify-content: center;
+
+
+    /* x축 정렬 */
+
+
+    align-items: center;
+
+
+    /* y축 정렬  */
+
+
+
+    /* 주석 flex: 부모 영역에 지정하면 자식들 위치조절기능 */
+
+    width: 1400px;
+    height: 1000px;
+
+    
+}
+
+#a_1{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+   
+    /* flex-basis: 20%; */
+    /* 주석 flex (문제16) : 자식영역에 전체의 몇% 차지할지 설정 */
+}
+#b_2{
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    
+}
+#c_3{
+    background-color:  green;
+    width: 100px;
+    height: 100px;
+}
+#d_4{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+#e_5{
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+}

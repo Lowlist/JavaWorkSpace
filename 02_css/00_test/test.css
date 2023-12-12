@@ -1,0 +1,21 @@
+
+body{
+
+    background-color: pink;
+
+
+}
+
+img{
+
+    width: 1000px;
+
+    height: 500px;
+
+}
+
+/* css 는 우선순위가 위에서 아래가 아닌 아래부터 올라감. */
+/* 스타일규칙에 !important 를 사용한 것 > 인라인 스타일
+> id 스타일 > class 스타일 > 타입(태그) 스타일 */
+/* border tag는 표 테두리를 의미함 */
+/*  */

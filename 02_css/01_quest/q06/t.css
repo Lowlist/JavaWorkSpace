@@ -1,0 +1,70 @@
+#box{
+    display: grid;  
+}
+/* flex x,y축으로 배치하는것 */
+/* grid는 xy축으로 쌍으로 다 된다 */
+#main_01{
+    display:flex;
+
+
+}
+#left_top{
+
+    background-color: red;
+    width: 120px;
+    height: 100px; 
+         
+}
+#main_top{
+
+    background-color: blue;
+    width: 480px;
+    height: 100px;    
+}
+#main_02{
+    display: flex;
+}
+#menu1{
+    background-color: aqua;
+    width: 120px;
+    height: 40px;
+    
+}
+#menu2{
+    background-color: aquamarine;
+    width: 120px;
+}
+#menu3{
+    background-color: orange;
+    width: 120px;    
+}
+#menu4{
+    background-color: green;
+    width: 120px;
+}
+#menu5{
+    background-color: silver;
+    width: 120px;
+}
+#main_03{
+    display: flex;
+}
+#main_left{
+    background-color: yellow;
+    width: 120px;
+    height: 500px;
+}
+#center{
+    background-color: purple;
+    width: 480px;
+    height: 500px;
+}
+#right{
+    background-color: pink;
+    width: 100px;
+    height: 640px;
+    position: relative;
+    bottom: 140px;
+    
+
+}

@@ -1,0 +1,47 @@
+#box{
+    display: flex;
+    width: 800px;
+    background-color: red;
+}
+#main{
+    background-color: orange;
+    width: 500px;
+    height: 100px;
+}
+#main2{
+    background-color: yellow;
+    width: 150px;
+    height: 100px;
+}
+#right{
+    background-color: black;
+    width: 150px;
+    height: 500px;
+}
+#box_2{
+    display: flex;
+}
+
+#box_3{
+    display: flex;
+}
+#senter{
+    background-color: green;
+    width: 100px;
+    height: 20px;
+}
+#senter_2{
+    background-color: blue;
+    width: 100px;
+    height: 20px;
+}
+#senter_3{
+    background-color: pink;
+    width: 100px;
+    height: 20px;
+}
+#senter_4{
+    background-color: purple;
+    width: 100px;
+    height: 20px;
+}

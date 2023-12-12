@@ -1,0 +1,38 @@
+/* flex x,y축 한쪽으로만 배치하는것 */
+/* grid는 xy축 쌍으로 다 된다 */
+*{
+    background-color: pink;
+}
+
+
+#box{
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    width:800px;
+
+    height: auto;
+
+    position: absolute;
+    left: 200px
+
+}
+
+.ex{
+    width: 100px;
+    height: 100px;
+
+}
+
+.chess_b{
+
+    background-color: black;
+
+}
+.chess_w{
+
+    background-color: white;
+
+}

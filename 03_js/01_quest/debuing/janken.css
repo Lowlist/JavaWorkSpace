@@ -1,0 +1,13 @@
+#main{
+    display: flex;
+}
+#player{
+    width: 300px;
+    height: 500px;
+    background-color: red;
+}
+#player_c{
+    width: 300px;
+    height: 500px;
+    background-color: blue;
+}

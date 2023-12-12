@@ -1,0 +1,10 @@
+#mainH{
+    display: grid;
+    background-color: aqua;
+    width:180px;
+    height:150px;
+    border: red 1px dashed;
+    border-radius: 20px;
+}
+
+

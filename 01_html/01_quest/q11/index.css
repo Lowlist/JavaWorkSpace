@@ -1,0 +1,21 @@
+table {
+    /* border: 1px solid black; */
+    border-width: 4px;
+    /* 픽셀 범위 */
+    border-style: solid;
+    /* 스타일 */
+    border-color: black;
+    /* 색깔 */
+}
+
+tr,td {
+    border-width: 4px;
+    /* 픽셀 범위 */
+    border-style: solid;
+    /* 스타일 */
+    border-color: gold;
+    /* 색깔 */
+
+    padding: 10;
+
+}

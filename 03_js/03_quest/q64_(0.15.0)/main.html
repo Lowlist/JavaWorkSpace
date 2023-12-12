@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="a.css">
+    <script src="common.js"></script>
+    <script src="function.js"></script>
+    <script src="game_object.js"></script>
+    <script src="Character.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="character_main">
+        <div id="character_one"></div>
+        <textarea id="character_info"></textarea> 
+        <textarea id="log"></textarea> 
+        <textarea id="result_info"></textarea> 
+    </div>
+
+    <input id="input_turn"  value="1" readonly="readonly">
+    <input type="button" id="turn_button" value="턴 진행" onclick="turn();">
+
+    <input type="button" class="small_button" value="동" onclick="moveEast();">
+    <input type="button" class="small_button" value="서" onclick="moveWest();">
+    <input type="button" class="small_button" value="남" onclick="moveSouth();">
+    <input type="button" class="small_button" value="북" onclick="moveNorth();">
+    <input type="button" class="small_button" value="위" onclick="moveUp();">
+    <input type="button" class="small_button" value="밑" onclick="moveDown();">
+</body>
+</html>

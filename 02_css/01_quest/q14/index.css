@@ -1,0 +1,203 @@
+body {
+    background-image: url('https://upload3.inven.co.kr/upload/2021/02/25/bbs/i15745445892.jpg');
+}
+
+
+#box{
+    display: flex;
+    width: 1500px;
+    height: 1500px;
+}
+
+/* 상단 */
+
+
+#box_top{
+    display: flex;
+    width: 1200px;
+}
+#top_left{
+    width: 300px;
+    height: 150px;
+    background-color: aqua;
+   
+}
+#top_banner{
+    width: 1000px;
+    height: 150px;
+    background-color: beige;
+    
+}
+
+/* 상단 사진+텍스트 */
+
+#top_cat{
+
+    width: 100px; height: 100px; margin: 10px;
+    position: relative;
+    left: 75px;
+    
+}
+
+#top_text{
+
+    font-size: 1.2em; font-style: italic; font-weight: 600;
+        color :brown;
+        margin-top: 0px;
+        position: absolute;
+        left: 50px;
+        
+
+}
+
+#top_banner_img{
+    position: relative;
+    left: 140px;
+    top: 15px;
+}
+
+
+
+/* 메뉴 */
+
+#box_menu{
+    display: flex;
+}
+
+#menu_1{
+    background-color: yellow;
+    width: 300px;
+    height: 50px;
+}
+
+#menu_2{
+    background-color: green;
+    width: 400px;
+    height: 44px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 3px solid black;
+}
+
+.chat_1{
+
+    position: relative;
+    top: 15px;
+
+}
+
+#menu_3{
+    background-color: blue;
+    width: 300px;
+    height: 50px;
+}
+
+#box_center{
+    display: flex;
+}
+
+#center{
+    background-color: pink;
+    width: 300px;
+    height: 800px;
+}
+
+#center_2{
+    float: right;
+    background-color: white;
+    width: 900px;
+    height: 800px;
+    /* 높이 굳이 안줘도 되긴함 */  
+}
+
+/* 센터 강아지 */
+
+#dog_1{
+    width: 200px;
+    border: 3px solid green;
+    margin: 5px
+}
+
+/* 우측 광고배너 */
+
+#right{
+    background-color: black;
+    width: 300px;
+    height: 1000px;
+}
+
+.gif_img{
+    width: 250px;
+    position: relative;
+    top:300px;
+    left:25px;
+
+}
+
+/* 센터 게시판 */
+
+#login_main{
+    background-color: aqua;
+    width: 200px;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    
+
+}
+#login_id {
+    width: 140px;
+}
+#login_pw {
+    width: 140px;
+}
+#board{
+    background-color: bisque;
+    width: 200px;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px;    
+}
+.board_title {
+    color:chartreuse;
+    font-size: 1.2em;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;        
+}
+.boards{
+    text-align: center;
+    margin: 40px;
+}
+#board_2{
+    background-color: white;
+    width: 200px;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px;    
+}
+.board_title_2 {
+    color:chartreuse;
+    font-size: 1.2em;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;        
+}
+.boards_2{
+    text-align: center;
+    margin: 40px;
+}
+
+#bottom_banner{
+ background-color: coral;
+ width: 2000px;   
+ position: fixed;
+ bottom: 0px;
+}

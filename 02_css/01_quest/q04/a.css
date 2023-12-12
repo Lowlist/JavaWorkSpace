@@ -1,0 +1,22 @@
+#x{
+display: flex;
+}
+
+#a{
+background-color: red;
+}
+#b{
+    background-color: orange;
+    }
+#c{
+    background-color: yellow;
+}
+#d{
+    background-color: green;
+}
+#e{
+    background-color: blue;
+    font-size: 4em;
+    text-align: end;
+    text-align: right;
+}

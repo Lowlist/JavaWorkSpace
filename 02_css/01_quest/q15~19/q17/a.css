@@ -1,0 +1,31 @@
+#box {
+    display: flex;
+    flex-direction: row;
+    
+    /* 문제15번~17번 flex-directopn: row; =  */
+    
+    /* flex-direction: column; */
+    
+    /* 
+        justify-content: 현재 축방향 기준으로 정렬의 위치를 정하는 속성
+        따라서 flex row 일때는 justify-content 센터가 가로 중앙 정렬이 되고
+        flex column 일때는 justify-content 센터가 세로 중앙 정렬이 됨
+        각각의 경우 align-items: center; 로 잡는 정렬의 방향은 앞서서 justify-content 가 잡는 정렬 방향의 반대가 됨
+        
+    */
+
+
+    justify-content: center;
+
+    width: 1000px;
+    height: 100px;
+
+    background-color: pink;
+}
+
+#a{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    
+}

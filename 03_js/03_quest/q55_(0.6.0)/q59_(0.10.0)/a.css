@@ -1,0 +1,21 @@
+/* #character_main {
+    display: flex;
+    width: 1000px;
+    height: 1000px;
+    background-color: red;
+} */
+#character_info{
+    width: 800px;
+    height: 200px;
+    background-color:cornflowerblue;
+}
+#log{
+    width: 800px;
+    height: 500px;
+    background-color:aquamarine;
+}
+#result_info{
+    width: 800px;
+    height: 200px;
+    background-color: pink;
+}   

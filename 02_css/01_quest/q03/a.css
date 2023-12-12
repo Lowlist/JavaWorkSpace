@@ -1,0 +1,8 @@
+#a{
+    background-color: red;
+    border-style: dotted;
+    border-width: 5px 5px 5px 5px;
+    /* 시계방향으로 처리함 위 -> 우 -> 아래 -> 좌*/
+    border-radius: 20px;
+    /* radius 박스 모델의 테두리를 둥굴게 처리함 */
+}

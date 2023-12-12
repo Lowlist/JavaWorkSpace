@@ -1,0 +1,39 @@
+#character_main {
+    display: grid;
+    width: 800px;
+}
+#character_info{
+    width: 800px;
+    height: 200px;
+    background-color:cornflowerblue;
+}
+#log{
+    width: 800px;
+    height: 500px;
+    background-color:aquamarine;
+}
+#result_info{
+    width: 800px;
+    height: 200px;
+    background-color: pink;
+}
+.small_button{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 343px;
+}
+#turn_text{  
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+#input_turn{
+    width: 30px;
+    height: 22px;
+    position: relative;
+}
+#turn_button{
+    width: 100px;
+    height: 30px;
+}
